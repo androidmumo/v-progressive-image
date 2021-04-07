@@ -2,7 +2,7 @@
 
 ### 效果
 
-![emage](./emage.gif)
+![emage](./public/emage.gif)
 
 ### 简介
 
