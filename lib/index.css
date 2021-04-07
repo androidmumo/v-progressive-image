@@ -1,0 +1,50 @@
+.pmage {
+  width: 100%;
+  background-size: cover;
+  position: relative;
+}
+
+.pmage:after {
+  content: "";
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: inherit no-repeat;
+  filter: blur(20px);
+}
+
+.pi-preview {
+  overflow: hidden;
+  width: 100%;
+  opacity: 0;
+}
+
+.pi-origin {
+  overflow: hidden;
+  width: 100%;
+  animation: blur 0.5s cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+
+.pi-abs {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+@keyframes blur {
+  from {
+    transform: scale(1.2);
+    filter: blur(20px);
+    -webkit-filter: blur(20px);
+    -ms-filter: blur(20px);
+    -moz-filter: blur(20px);
+  }
+  to {
+    transform: scale(1);
+    filter: blur(0);
+    -webkit-filter: blur(0);
+    -ms-filter: blur(0);
+    -moz-filter: blur(0);
+  }
+}
