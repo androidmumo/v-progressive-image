@@ -1,4 +1,5 @@
 .pmage {
+  overflow: hidden;
   width: 100%;
   background-size: cover;
   position: relative;
@@ -27,6 +28,9 @@
 .pi-origin {
   overflow: hidden;
   width: 100%;
+}
+
+.pi-animation {
   animation: blur 0.5s cubic-bezier(0.39, 0.575, 0.565, 1);
 }
 

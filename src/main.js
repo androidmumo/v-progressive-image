@@ -4,5 +4,6 @@ import '../lib/index.css'
 import vueEmage from '../lib/vue-emage'
 
 createApp(App).use(vueEmage, {
-	removePreview: false
+	removePreview: false,
+    animation: false
 }).mount('#app')

@@ -29,7 +29,8 @@ import vueEmage from 'vue-emage';
 
 ```javascript
 app.use(vueEmage, {
-	removePreview: false // 大图加载完成后是否删除较小的预览图(需要进行DOM操作)
+	removePreview: false, // 默认false 大图加载完成后是否删除较小的预览图(需要进行DOM操作)
+  animation: true // 默认true 是否启用过渡动画
 });
 ```
 
