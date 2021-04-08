@@ -2,7 +2,7 @@
 
 ##### 这是一个适用于vue3的图片渐进式加载插件！
 
-<a href="https://www.npmjs.com/package/v-progressive-image"><img src="https://img.shields.io/npm/v/v-progressive-image"></a><img src="https://img.shields.io/badge/vue-3.x-brightgreen">
+<a href="https://www.npmjs.com/package/v-progressive-image"><img src="https://img.shields.io/npm/v/v-progressive-image"></a> <img src="https://img.shields.io/badge/vue-3.x-brightgreen">
 
 ### 效果
 
