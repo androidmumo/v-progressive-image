@@ -1,4 +1,8 @@
 import { createApp } from 'vue'
 import App from './App.vue'
+import '../lib/index.css'
+import vueEmage from '../lib/vue-emage'
 
-createApp(App).mount('#app')
+createApp(App).use(vueEmage, {
+	removePreview: false
+}).mount('#app')

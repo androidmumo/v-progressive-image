@@ -4,6 +4,10 @@
   position: relative;
 }
 
+.pmage img {
+  display: block;
+}
+
 .pmage:after {
   content: "";
   width: 100%;

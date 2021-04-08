@@ -1,14 +1,18 @@
 # vue-emage
 
+##### 这是一个适用于vue3的图片渐进式加载插件！
+
+![](https://img.shields.io/npm/v/vue-emage)
+
+
+
 ### 效果
 
-![emage](./public/emage.gif)
+![emage](./emage.gif)
 
 ### 简介
 
 vue-emage 即 Evolution Image，可以“进化”的图片。
-
-##### 这是一个适用于vue3的图片渐进式加载插件！
 
 vue-emage可以帮您：实现从缩略图到原图的平缓过渡，改善用户体验。
 
@@ -41,4 +45,6 @@ app.use(vueEmage, {
     </div>
 ```
 
-使用 `v-preview` 指令指定预览图（较小的图片）链接，使用 `v-origin` 指令指定原图链接。
+- 使用 `v-preview` 指令指定预览图（较小的图片）链接，使用 `v-origin` 指令指定原图链接。
+- div标签中间不可以有内容。
+- 预览图建议使用Base64编码。
