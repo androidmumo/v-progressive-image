@@ -2,9 +2,7 @@
 
 ##### 这是一个适用于vue3的图片渐进式加载插件！
 
-![](https://img.shields.io/npm/v/vue-emage)
-
-
+<a href="https://www.npmjs.com/package/vue-emage"><img src="https://img.shields.io/npm/v/vue-emage"></a>
 
 ### 效果
 
