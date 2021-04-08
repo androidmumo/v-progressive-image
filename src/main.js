@@ -1,9 +1,9 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 import '../lib/index.css'
-import vueEmage from '../lib/vue-emage'
+import vProgressiveImage from '../lib/v-progressive-image'
 
-createApp(App).use(vueEmage, {
+createApp(App).use(vProgressiveImage, {
 	removePreview: false,
     animation: false
 }).mount('#app')
