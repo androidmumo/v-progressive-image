@@ -32,9 +32,9 @@ import vProgressiveImage from 'v-progressive-image';
 
 ```javascript
 app.use(vProgressiveImage, {
-	removePreview: false, // 大图加载完成后是否删除较小的预览图(删除会进行DOM操作) 默认false
-	animation: true // 是否启用过渡动画 默认true
-    scale: 1.2 // 过渡动画放大倍数 默认1.2 (仅在animation不为false时生效，1.0.0及之后的版本支持)
+    removePreview: false, // 大图加载完成后是否删除较小的预览图(删除会进行DOM操作) 默认false
+    animation: true // 是否启用过渡动画 默认true
+    scale: 1.2 // 过渡动画放大倍数 必须>=1 默认为1.2 (仅在animation不为false时生效，1.0.0及之后的版本支持)
 });
 ```
 
