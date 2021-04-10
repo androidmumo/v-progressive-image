@@ -1,15 +1,15 @@
-.pmage {
+.v-progressive-image {
   overflow: hidden;
   width: 100%;
   background-size: cover;
   position: relative;
 }
 
-.pmage img {
+.v-progressive-image img {
   display: block;
 }
 
-.pmage:after {
+.v-progressive-image:after {
   content: "";
   width: 100%;
   position: absolute;

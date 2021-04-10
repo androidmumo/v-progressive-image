@@ -27,16 +27,26 @@ npm i v-progressive-image
 ### 全局引入插件
 
 ```javascript
-import 'v-progressive-image/lib/index.css';  // 引入样式文件
 import vProgressiveImage from 'v-progressive-image';
 ```
 
 ```javascript
 app.use(vProgressiveImage, {
-	removePreview: false, // 默认false 大图加载完成后是否删除较小的预览图(删除会进行DOM操作)
-	animation: true // 默认true 是否启用过渡动画
+	removePreview: false, // 大图加载完成后是否删除较小的预览图(删除会进行DOM操作) 默认false
+	animation: true // 是否启用过渡动画 默认true
+    scale: 1.2 // 过渡动画放大倍数 默认1.2 (仅在animation不为false时生效，1.0.0及之后的版本支持)
 });
 ```
+
+> ###### 注意：（适用于旧版本）
+>
+> v-progressive-image 的 `0.1.0` 和 `0.1.1` 版本需要引入样式文件：
+>
+> ```javascript
+> import 'v-progressive-image/lib/index.css';  // 0.1.0 和 0.1.1 版本需要引入样式文件
+> ```
+>
+> `1.0.0` 及之后的版本无需引入
 
 ### 使用
 
@@ -51,3 +61,4 @@ app.use(vProgressiveImage, {
 - 使用 `v-preview` 指定预览图（较小的图片）链接，使用 `v-origin` 指定原图链接。
 - div标签中间不可以有内容。
 - 预览图建议使用Base64编码。
+- 支持在任何常规标签上使用，但在非块级元素上使用可能会有意料之外的结果，如模糊范围超过父元素。
