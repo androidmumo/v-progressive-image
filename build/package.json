@@ -1,0 +1,28 @@
+{
+  "name": "v-progressive-image",
+  "version": "1.1.1",
+  "description": "适用于vue3的渐进式图片加载插件",
+  "main": "dist/v-progressive-image.umd.min.js",
+  "private": false,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/androidmumo/v-progressive-image.git"
+  },
+  "keywords": [
+    "progressive-image",
+    "vue3"
+  ],
+  "author": {
+    "name": "androidmumo",
+    "email": "androidmumo@outlook.com",
+    "url": "https://www.mcloc.cn/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/androidmumo/v-progressive-image/issues"
+  },
+  "homepage": "https://github.com/androidmumo/v-progressive-image#readme"
+}
