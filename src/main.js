@@ -6,5 +6,7 @@ import vProgressiveImage from '../lib/v-progressive-image'
 createApp(App).use(vProgressiveImage, {
 	removePreview: true,
     animation: true,
-	scale: 1.2
+	scale: 1,
+	time: 0.5,
+	blur: 20
 }).mount('#app')
